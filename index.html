@@ -50,8 +50,19 @@
             e se conecta com as pessoas, não algo robotico de segue um roteiro progamado, algo que, atualmente, a IA não alcança. Então não, no cenario atual, a IA não chega
             nem perto do que um humano pode escrever.
           </p>
+          <button>❤️<span>0</span></button>
         </main>
         
   </body>
+  <script>
+    const botao = document.querySelector("button");
+    botao.addEventListener("click", botaoClicado);
+
+    function botaoClicado() {
+    let texto = botao.querySelector("span");
+    texto.textContent++;
+}
+
+  </script>
 </html>
 
